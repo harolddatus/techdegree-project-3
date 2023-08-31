@@ -23,11 +23,11 @@
         <div>
           <div class="input-fieldName">
             <label for="full-name">Full Name</label>
-            <input type="text" class="input_field" id="full-name" name="full-name" placeholder="Required">
+            <input type="text" class="input_field" id="full-name" name="full-name" Required placeholder="Full Name">
           </div>
           <div class="input-fieldName">
             <label for="email-address">Email Address</label>
-            <input type="email" class="input_field" id="email-address" name="email-address" placeholder="Required">
+            <input type="email" class="input_field" id="email-address" name="email-address" Required placeholder="Email Address">
           </div>
           <div class="input-fieldName">
             <label for="phone-number">Phone Number</label>
@@ -43,13 +43,13 @@
           </div>
           <div class="input-fieldName">
             <label for="state">State</label>
-            <select class="input_field" id="state">
+            <select name= "state" class="input_field" id="state">
               <option value="state">State</option>
               <option value="state" selected class="input_field">Choose State</option>
             </select>
           </div><br>      
-          <div class="input-fieldName">
-            <label for="zip-code">Zip Code</label>
+          <div class="ZipCode">
+            <label for="zip-code" class="zip-size">Zip Code</label>
             <input type="text" class="zip-code" id="zip-code" name="zip-code" placeholder=" Your zip code?">
           </div>
         </div>
@@ -92,12 +92,15 @@
           <div>
             <input type="radio" id="plain_text" name="newsletter_format">
           <label for="plain_text">Plain text</label>
-          </div>
+          </div><br>
           <p>Other topics you'd like to hear about</p>  
         </div>
+        <div>
+          <label for="message"></label>
+          <textarea name="message" id="message" class="textarea" placeholder="List other topics you'd like to hear about
+          "></textarea>
+        </div>
       </fieldset>
-        <textarea name="message" class="textarea" placeholder="List other topics you'd like to hear about
-        "></textarea><br>
         <input type="submit" class="signup_button" id="sign_up" value="Sign Up">
     </form>
   </main>
