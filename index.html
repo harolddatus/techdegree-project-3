@@ -11,22 +11,23 @@
 </head>
 <body>
   <header>
-    <h1>The Code Review</h1>
-    <h2>Signup for our newsletter</h2>
-    <p>Get the latest news on how your code is doing right in your inbox</p>
+    <div>
+      <h1>The Code Review</h1>
+      <h2>Signup for our newsletter</h2>
+      <p>Get the latest news on how your code is doing right in your inbox</p>
+    </div>
   </header>
   <main>
     <form>
-      
       <fieldset>
         <legend class="contact-info-legend">Contact Information</legend>
         <div>
           <div class="input-fieldName">
-            <label for="full-name">Full Name</label>
+            <label for="full-name" class="required">Full Name</label>
             <input type="text" class="input_field" id="full-name" name="full-name" Required placeholder="Full Name">
           </div>
           <div class="input-fieldName">
-            <label for="email-address">Email Address</label>
+            <label for="email-address" class="required">Email Address</label>
             <input type="email" class="input_field" id="email-address" name="email-address" Required placeholder="Email Address">
           </div>
           <div class="input-fieldName">
@@ -48,9 +49,9 @@
               <option value="state" selected class="input_field">Choose State</option>
             </select>
           </div><br>      
-          <div class="ZipCode">
+          <div class="zipcod-field">
             <label for="zip-code" class="zip-size">Zip Code</label>
-            <input type="text" class="zip-code" id="zip-code" name="zip-code" placeholder=" Your zip code?">
+            <input type="text" class="zip-code" id="zip-code" name="zip-code" placeholder="zip code?">
           </div>
         </div>
       </fieldset>  

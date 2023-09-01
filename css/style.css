@@ -27,7 +27,7 @@ fieldset {
 
 header h1 {
   text-align: center;
-  background-color: rgb(56, 64, 82);
+  background-color: rgb(116, 202, 188);
   color: white;
   text-transform: uppercase;
   font-size: 18px;
@@ -87,7 +87,7 @@ fieldset .contact-info-legend {
  .zip-size {
   width: 37%;
   }
-
+    
 ::placeholder {
   text-align: end;
   margin-right: 10px;
@@ -125,7 +125,7 @@ fieldset .contact-info-legend {
 }
 
 .textarea{
-  background-color: rgb(231, 217, 217)
+  background-color: rgba(128, 128, 128, 0.178);
 }
 
 input {
@@ -161,23 +161,27 @@ footer p {
   font-weight: 300;
   font-style: italic;
 }
-
 }
-  main {
+
+
+main {
     display: inline-flex;
     flex-direction: row;
     width: 100%;
-  }
+}
+
 form {
   display: flex;
   flex-direction: column;
   padding: 0 20px;
 }
+
 label {
   width: 300px;
   display: inline-block;
   margin-bottom: 15px;   
  }
+
 .input_field {
   width:100%;
   height: 2.5rem;
@@ -196,7 +200,7 @@ fieldset {
 
 header h1 {
   text-align: center;
-  background-color: rgb(56, 64, 82);
+  background-color: rgb(116, 202, 188);
   color: white;
   text-transform: uppercase;
   font-size: 18px;
@@ -229,6 +233,15 @@ fieldset .contact-info-legend {
   border-top: double 6px;
   width: 100%
 }
+.required::after {
+  content:" *";
+  color: red;
+  font-size: 15px;
+}
+
+.zip-code {
+width:22%;
+} 
 
 .zip-code {
   height: 2.2rem;
@@ -256,7 +269,7 @@ fieldset legend {
   font-size: 16px;
   font-weight: 500;
   border: none;
-  }
+}
 
 .textarea {
   width:100%;
@@ -279,7 +292,7 @@ fieldset legend {
 }
 
 .textarea{
-  background-color: rgb(231, 217, 217)
+  background-color: rgba(128, 128, 128, 0.178);
 }
 
 input {
@@ -310,4 +323,3 @@ footer p {
   font-weight: 300;
   font-style: italic;
 }
-
